@@ -1,6 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Head from '../components/Head.astro';
+
+import '../styles/app.css';
 ---
 
 <Layout title="Welcome to Astro.">
@@ -32,91 +35,39 @@ import Card from '../components/Card.astro';
 				</linearGradient>
 			</defs>
 		</svg> -->
-		<h1><span class="text-gradient">DrakeAFK</span></h1>
+		<!-- <h1><span class="text-gradient">DrakeAFK<br /><span style="font-size: 2rem;">Drake Hopkins</span></span></h1>
 		<p class="instructions">
 			<code>Web Developer</code> and <code>IT Professional</code> with 4+ years of successful experience working in different tech environments
 		</p>
+		<p style="text-align: center; font-size: 1.15rem;">
+			<code>"Good design is as little design as possible.." - Dieter Rams</code>
+		</p> -->
+		<Head />
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
 				title="About Me"
 				body="Learn more about me and my interests"
+				symbol="🗺"
 			/>
 			<Card
 				href="https://astro.build/integrations/"
 				title="Projects"
 				body="View all of my projects"
+				symbol="☢"
 			/>
 			<Card
 				href="https://astro.build/themes/"
 				title="Contact"
 				body="Ask me anything or just say hello"
+				symbol="🖂"
 			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
+			<!-- <Card
+				href="#"
+				title="Blog"
+				body="BLOG BLOG BLOG"
+				symbol=""
+			/> -->
 		</ul>
 	</main>
 </Layout>
-
-<style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-		text-align: center;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
-	}
-</style>
