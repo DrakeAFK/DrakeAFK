@@ -18,20 +18,6 @@
 
 ---
 
-- Assets
-  - Profile Image
-    - Hacker Logo / Hoodie / Professional
-  - Favicon
-    - Yoink from Svelte Portfolio
-  - Social Links Icons
-    - GitHub
-    - Twitter
-    - Instagram
-    - LinkedIn
-  - Project Images
-
----
-
 - Formatting
   - Font
     - Style
@@ -57,4 +43,6 @@ Quote for some section of site: "Good design is as little design as possible. Le
 
 ## NOW
 
-- Complete "Footer" component
+sss
+
+---
