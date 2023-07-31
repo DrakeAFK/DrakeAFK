@@ -27,6 +27,6 @@ Quote for some section of site: "Good design is as little design as possible. Le
 
 ## NOW
 
-Project Images and CV Download are broken
+Navigation Bar
 
 ---
