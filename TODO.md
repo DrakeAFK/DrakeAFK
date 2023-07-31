@@ -27,6 +27,6 @@ Quote for some section of site: "Good design is as little design as possible. Le
 
 ## NOW
 
-sss
+Evaluate
 
 ---
