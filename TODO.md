@@ -1,21 +1,5 @@
 # DO THESE THINGS
 
-- Pages
-  - "About Me" Page
-    - Update HOME CARD
-    - Timeline
-    - Interests
-  - "Projects" Page
-    - Update HOME CARD
-  - "Contact" Page
-    - Update HOME CARD
-    - Email Address
-    - "On the Web" / Social Media
-  - "Link" Page
-    - Update HOME CARD
-    - Include in "Projects"
-  - Resume Download on Index?
-
 ---
 
 - Formatting
