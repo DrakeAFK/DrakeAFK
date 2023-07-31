@@ -126,4 +126,12 @@ code {
 }
 .hidden {
     display: none;
-  }
+}
+.menu-items li {
+    list-style-type: none;
+    padding: 2.5px;
+}
+.menu-items a {
+    color: white;
+    text-decoration: none;
+}

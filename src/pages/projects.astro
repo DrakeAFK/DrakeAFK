@@ -3,12 +3,14 @@ import Layout from "../layouts/Layout.astro";
 import Head from "../components/Head.astro";
 import Footer from "../components/Footer.astro";
 import SmallProjects from "../components/small-projects.astro";
+import Navbar from "../components/Navbar.astro";
 
 import '../styles/app.css';
 ---
 
 <Layout title="Projects - DrakeAFK">
     <main>
+        <Navbar />
         <Head />
         <br /><hr /><br />
         <SmallProjects />

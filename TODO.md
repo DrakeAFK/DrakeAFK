@@ -6,18 +6,6 @@
   - Font
     - Style
     - Size
-  - Color
-    - Base / Background / Font
-    - Light Mode / Dark Mode
-      - Alternate colors for each
-  - Alignment
-  - Navigation Bar / Menu
-    - Dropdown / Hidden
-
----
-
-- MISCELLANEOUS
-  - Blog
 
 ---
 
@@ -27,6 +15,8 @@ Quote for some section of site: "Good design is as little design as possible. Le
 
 ## NOW
 
-Navigation Bar
+Navigation Bar Edits (Change Open/Close Icon -- Edit in Affinity, Sample Site Background Color, Put Background Color for Icon same as Site, Then MenuIcon will make it look like a border around the Icon -- astro-navbar github has code for customizing Open/CloseIcon, Use IMG element inside of Open/CloseIcon elements)
+
+Blog
 
 ---
