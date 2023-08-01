@@ -1,4 +1,3 @@
-
 .link-card {
     list-style: none;
     display: flex;
@@ -124,13 +123,16 @@ code {
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
         Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
 .hidden {
     display: none;
 }
+
 .menu-items li {
     list-style-type: none;
     padding: 2.5px;
 }
+
 .menu-items a {
     color: white;
     text-decoration: none;
