@@ -1,27 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Head from '../components/Head.astro';
-import Footer from '../components/Footer.astro';
-import Bio from '../components/Bio.astro';
-import Interests from '../components/Interests.astro';
-import Navbar from '../components/Navbar.astro';
+import Sub from '../layouts/Sub.astro';
 
-import '../styles/app.css';
+import History from '../components/History.astro';
+import Interests from '../components/Interests.astro';
 ---
 
-<Layout title="About Me - DrakeAFK">
-    <main>
-        <Navbar />
-
-        <Head />
-        <br />
-        <hr /><br />
-        <Bio />
-        <br />
-        <hr /><br />
-        <Interests />
-        <br />
-        <hr /><br />
-        <Footer />
-    </main>
-</Layout>
+<Sub title="DrakeAFK - About">
+    <h1 class="text-3xl font-bold text-center">Brief History</h1>
+    <History />
+    <div class="divider w-1/2 mx-auto" />
+    <h1 class="text-3xl font-bold text-center">Interests</h1>
+    <Interests />
+</Sub>

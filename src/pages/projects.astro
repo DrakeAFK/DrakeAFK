@@ -1,23 +1,10 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Head from "../components/Head.astro";
-import Footer from "../components/Footer.astro";
-import SmallProjects from "../components/small-projects.astro";
-import Navbar from "../components/Navbar.astro";
+import Sub from '../layouts/Sub.astro';
 
-import '../styles/app.css';
+import SmallProjects from '../components/SmallProjects.astro';
 ---
 
-<Layout title="Projects - DrakeAFK">
-    <main>
-        <Navbar />
-
-        <Head />
-        <br />
-        <hr /><br />
-        <SmallProjects />
-        <br />
-        <hr /><br />
-        <Footer />
-    </main>
-</Layout>
+<Sub title="DrakeAFK - Projects">
+    <h1 class="text-3xl font-bold text-center">Small Projects</h1>
+    <SmallProjects />
+</Sub>

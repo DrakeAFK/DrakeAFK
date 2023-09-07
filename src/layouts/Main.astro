@@ -1,0 +1,24 @@
+---
+import "../global.css"
+const {title} = Astro.props;
+
+import Hero from "../components/Hero.astro";
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="favicon.svg">
+    <title>{title}</title>
+  </head>
+  <body>
+    <Navigation />
+    <slot />
+    <Hero />
+    <div class="divider w-1/2 m-auto" />
+    <Footer />
+</body>
+</html>
