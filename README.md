@@ -5,4 +5,10 @@ I am also very open to any suggestions or advice you may have for me!
 
 ---
 
-Visit my personal website [HERE](https://drakeafk.io)
+[Personal Website](https://drakeafk.io)
+
+[Projects](https://github.com/DrakeAFK?tab=repositories)
+
+[LinkedIn](https://www.linkedin.com/in/drakehopkins/)  
+
+[Email](mailto:drakehopkins@outlook.com)
