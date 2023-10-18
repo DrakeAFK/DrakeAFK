@@ -1,0 +1,10 @@
+---
+let currentYear = new Date().getFullYear();
+import { links } from "../data.ts";
+---
+
+<footer class="mx-auto p-10">
+  <div class="text-white text-center font-mono font-thin">
+    <a href={links.bioSocialLinks.path} target="_blank" class="underline text-green-400 hover:text-green-200">DrakeAFK © {currentYear}</a>
+  </div>
+</footer>
